@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Downloads\\Courses\\CURSO-ANGULAR\\OrionTek Angular\\Backend\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Downloads\\Courses\\CURSO-ANGULAR\\OrionTekAngular\\Backend\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\Users\\PC\\Downloads\\Courses\\CURSO-ANGULAR\\OrionTek Angular\\Backend\\Models\\Models.csproj",
+      "projectPath": "C:\\Users\\PC\\Downloads\\Courses\\CURSO-ANGULAR\\OrionTekAngular\\Backend\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Downloads\\Courses\\CURSO-ANGULAR\\OrionTek Angular\\Backend\\Models\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Downloads\\Courses\\CURSO-ANGULAR\\OrionTekAngular\\Backend\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

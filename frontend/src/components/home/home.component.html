@@ -1,14 +1,10 @@
 <div class="card-container">
-  <!-- Pagination Info Top-Right -->
-  <div>
-  </div>
   <div class="pagination-info">
     <div *ngIf="showAlert" class="alert">
       {{ notificationMessage }}
     </div>
     <h1>List Clients: {{clients.length}}</h1>
     <button (click)="toggleModal()">Create Client</button>
-    {{ currentPage + 1 }}/{{ totalPages }}
   </div>
 
   <div class="clients">
@@ -19,8 +15,11 @@
         (clientDeleted)="onClientDeleted($event)">
       </Client>
     </ng-container>
+
   </div>
   
+   <span class="paginationComponent">{{ currentPage + 1 }}/{{ totalPages }}</span>
+
   <!-- Pagination Buttons -->
   <button class="pagination-button left" (click)="currentPage = currentPage - 1" [disabled]="currentPage <= 0">
     &lt;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nN5k8Xd6eX+lI0c7EUvs3c5Uxa7LsnWNMNCRLwAhx4HRxaxJY9zlHW1Bo6LWn5SPZd7WqKta3tIU43CvI0+gtA==",
+  "dgSpecHash": "PskpmWZ2I+O+Ip7sLomTJ9u9yoj8nxCpKS59Z+bQ1uWmddpvfbn/dWppFyrhvj34wotDGJOHNqkahuqilIVphw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Downloads\\Courses\\CURSO-ANGULAR\\OrionTek Angular\\Backend\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Downloads\\Courses\\CURSO-ANGULAR\\OrionTekAngular\\Backend\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

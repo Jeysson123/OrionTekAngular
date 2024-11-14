@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CqUvCq46Gsyyi0n6r6BX0DymUm7dW0OjDz6BWtvTl+486w/lff8SuK/WAlBuWsssMDdvNjRvjcD43F8UBm0k2Q==",
+  "dgSpecHash": "N+KCtH7W5h79EjIAOcPzlZcd/1unxG/OkafsyspSi6USKvAeT8JKc9Ecy1xhzBsSe9KyrlRzFWZd6szwyUA12g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Downloads\\Courses\\CURSO-ANGULAR\\OrionTek Angular\\Backend\\Models\\Models.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Downloads\\Courses\\CURSO-ANGULAR\\OrionTekAngular\\Backend\\Models\\Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
