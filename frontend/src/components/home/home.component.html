@@ -1,0 +1,62 @@
+<div class="card-container">
+  <!-- Pagination Info Top-Right -->
+  <div>
+  </div>
+  <div class="pagination-info">
+    <div *ngIf="showAlert" class="alert">
+      {{ notificationMessage }}
+    </div>
+    <h1>List Clients: {{clients.length}}</h1>
+    <button (click)="toggleModal()">Create Client</button>
+    {{ currentPage + 1 }}/{{ totalPages }}
+  </div>
+
+  <div class="clients">
+    <ng-container *ngFor="let client of clients | slice:(currentPage * pageSize):((currentPage + 1) * pageSize)">
+      <Client 
+        [client]="client"
+        (clientUpdated)="onClientUpdated($event)" 
+        (clientDeleted)="onClientDeleted($event)">
+      </Client>
+    </ng-container>
+  </div>
+  
+  <!-- Pagination Buttons -->
+  <button class="pagination-button left" (click)="currentPage = currentPage - 1" [disabled]="currentPage <= 0">
+    &lt;
+  </button>
+  <button class="pagination-button right" (click)="currentPage = currentPage + 1" [disabled]="currentPage >= totalPages - 1">
+    &gt;
+  </button>
+</div>
+
+<!-- Modal for Create Client -->
+<div *ngIf="showModal" class="modal">
+  <div class="modal-content">
+    <h2>Create Client</h2>
+    <form (ngSubmit)="saveClient()">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input
+          id="name"
+          type="text"
+          [(ngModel)]="newClientName"
+          name="name"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="enterprise">Enterprise:</label>
+        <input
+          id="enterprise"
+          type="text"
+          [(ngModel)]="newClientEnterprise"
+          name="enterprise"
+          required
+        />
+      </div>
+      <button type="submit">Save</button>
+      <button type="button" (click)="toggleModal()">Cancel</button>
+    </form>
+  </div>
+</div>
